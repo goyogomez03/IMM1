@@ -20,9 +20,12 @@ except:
     pass
 
 st.subheader("Una pequeña historia")
-st.write('Una zorra hambrienta vio un racimo de uvas colgando de una parra. Intentó alcanzarlas una y otra vez, saltando con todas sus fuerzas, pero no lograba tocarlas. Cansada, se alejó murmurando:
-—Bah, seguro están verdes.
-Moraleja: A veces despreciamos lo que no podemos conseguir')
+st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
+         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
+         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
+         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
+         '  '
+         ' Franz Kafka.')
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
