@@ -22,7 +22,7 @@ except:
 st.subheader("Una pequeña historia")
 st.write("Una zorra hambrienta vio un racimo de uvas colgando de una parra. Intentó alcanzarlas una y otra vez, saltando con todas sus fuerzas, pero no lograba tocarlas. Cansada, se alejó murmurando:
 —Bah, seguro están verdes.
-Moraleja: A veces despreciamos lo que no podemos conseguir.")
+Moraleja: A veces despreciamos lo que no podemos conseguir")
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
