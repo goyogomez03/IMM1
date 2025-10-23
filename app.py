@@ -20,10 +20,8 @@ except:
     pass
 
 st.subheader("Una pequeña historia")
-st.write('Wall-E cuenta la historia de un pequeño robot recolector de basura que vive solo en una Tierra abandonada y cubierta de desechos. Durante siglos ha limpiado el planeta mientras desarrolla una personalidad curiosa y sensible. Su rutina cambia cuando conoce a **EVE**, una moderna robot exploradora enviada para buscar signos de vida. Juntos emprenden una aventura que los lleva al espacio, donde descubren a los humanos viviendo cómodamente en una nave y olvidados de su hogar. Gracias a su valentía y ternura, Wall-E inspira a la humanidad a regresar a la Tierra y cuidarla de nuevo.
-'
-        
-        )
+st.write("Wall E cuenta la historia de un pequeño robot recolector de basura que vive solo en una Tierra abandonada y cubierta de desechos. Durante siglos ha limpiado el planeta mientras desarrolla una personalidad curiosa y sensible. Su rutina cambia cuando conoce a **EVE**, una moderna robot exploradora enviada para buscar signos de vida. Juntos emprenden una aventura que los lleva al espacio, donde descubren a los humanos viviendo cómodamente en una nave y olvidados de su hogar. Gracias a su valentía y ternura, Wall-E inspira a la humanidad a regresar a la Tierra y cuidarla de nuevo.
+")
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
